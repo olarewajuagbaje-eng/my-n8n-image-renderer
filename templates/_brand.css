@@ -1,0 +1,30 @@
+:root {
+  --brand-bg: #101512;
+  --brand-ink: #F3F6F3;
+  --brand-muted: #8FA097;
+  --brand-font-display: 'Space Grotesk', sans-serif;
+  --brand-font-body: 'IBM Plex Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1200px;
+  height: 675px;
+  overflow: hidden;
+  background: var(--brand-bg);
+  color: var(--brand-ink);
+  font-family: var(--brand-font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .brand-display {
+  font-family: var(--brand-font-display);
+}
